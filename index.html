@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz zgłoszenia na kurs programowania</title>
+</head>
+<body>
+    <center>
+        <h1>Formularz zgłoszenia na kurs programowania</h1>
+    </center>
+    <form action="#" method="post">
+        <p><strong>Dane osobowe:</strong></p>
+        <ul>
+            <li>
+                <label for="imie"><strong>Imię:</strong></label><br>
+                <input type="text" id="imie" name="imie"><br><br>
+            </li>
+            <li>
+                <label for="nazwisko"><strong>Nazwisko:</strong></label><br>
+                <input type="text" id="nazwisko" name="nazwisko"><br><br>
+            </li>
+        </ul>
+
+        <p><strong>Zainteresowania programistyczne:</strong></p>
+        <ul>
+            <li>
+                <p><strong>Wybierz język programowania, który Cię interesuje:</strong></p>
+            </li>
+        </ul>
+        <input type="checkbox" id="python" name="jezyk" value="Python">
+        <label for="python">Python</label><br>
+
+        <input type="checkbox" id="javascript" name="jezyk" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+
+        <input type="checkbox" id="cpp" name="jezyk" value="C++">
+        <label for="cpp">C++</label><br>
+
+        <input type="checkbox" id="java" name="jezyk" value="Java">
+        <label for="java">Java</label><br>
+
+        <input type="checkbox" id="htmlcss" name="jezyk" value="HTML/CSS">
+        <label for="htmlcss">HTML/CSS</label><br><br>
+
+        <ul>
+            <li>
+                <p><strong>Gdzie mieszkasz na stałe?</strong></p>
+            </li>
+        </ul>
+        <input type="radio" id="europa" name="kontynent" value="Europa">
+        <label for="europa">Europa</label><br>
+
+        <input type="radio" id="azja" name="kontynent" value="Azja">
+        <label for="azja">Azja</label><br>
+
+        <input type="radio" id="ameryka" name="kontynent" value="Ameryka Północna/Południowa">
+        <label for="ameryka">Ameryka Północna/Południowa</label><br>
+
+        <input type="radio" id="inne" name="kontynent" value="Afryka, Australia i Oceania">
+        <label for="inne">Afryka, Australia i Oceania</label><br><br>
+
+        <p><strong>Doświadczenie i preferencje:</strong></p>
+        <ul>
+            <li>
+                <p><strong>Czy masz doświadczenie w programowaniu?</strong></p>
+            </li>
+        </ul>
+        <input type="radio" id="tak" name="doswiadczenie" value="Tak">
+        <label for="tak">Tak, napisałem kilka małych projektów</label><br>
+
+        <input type="radio" id="troche" name="doswiadczenie" value="Trochę">
+        <label for="troche">Trochę, np. podstawy z lekcji w szkole</label><br>
+
+        <input type="radio" id="nie" name="doswiadczenie" value="Nie">
+        <label for="nie">Nie, jestem początkujący</label><br><br>
+
+        <ul>
+            <li>
+                <p><strong>Jakie strony związane z programowaniem znasz?</strong></p>
+            </li>
+        </ul>
+        <input type="checkbox" id="github" name="strony" value="github.com">
+        <label for="github">github.com</label><br>
+
+        <input type="checkbox" id="stackoverflow" name="strony" value="stackoverflow.com">
+        <label for="stackoverflow">stackoverflow.com</label><br>
+
+        <input type="checkbox" id="w3schools" name="strony" value="w3schools.com">
+        <label for="w3schools">w3schools.com</label><br>
+
+        <input type="checkbox" id="codecademy" name="strony" value="codecademy.com">
+        <label for="codecademy">codecademy.com</label><br><br>
+
+        <ul>
+            <li>
+                <p><strong>Posiadasz konto na platformach (zaznacz):</strong></p>
+            </li>
+        </ul>
+        <input type="checkbox" id="platform-github" name="platformy" value="GitHub">
+        <label for="platform-github">GitHub</label><br>
+
+        <input type="checkbox" id="platform-bitbucket" name="platformy" value="Bitbucket">
+        <label for="platform-bitbucket">Bitbucket</label><br>
+
+        <input type="checkbox" id="platform-stackoverflow" name="platformy" value="Stack Overflow">
+        <label for="platform-stackoverflow">Stack Overflow</label><br>
+
+        <label for="inne">Inne:</label>
+        <input type="text" id="inne" name="inne"><br><br>
+
+        <p><strong>Twoja motywacja:</strong></p>
+        <ul>
+            <li>
+                <label for="motywacja"><strong>Dlaczego chcesz dołączyć do kursu programowania?</strong></label><br>
+            </li>
+        </ul>
+        <textarea id="motywacja" name="motywacja" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Wyślij">
+    </form>
+</body>
+</html>
+
+
